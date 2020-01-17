@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="uberTest"
-    errors="0" failures="0" hostname="" id="" package="uberTest" skipped="0"
-    tests="1" time="2.806" timestamp="">
+    errors="1" failures="0" hostname="" id="" package="uberTest" skipped="0"
+    tests="2" time="4.946" timestamp="">
   
-    <testcase name="Open Website uber.com" classname="uberTest" time="2.806" assertions="3">
-
-    
+    <testcase name="Open Website uber.com" classname="uberTest" time="2.316" assertions="2">
 
     
 
     
     </testcase>
   
+    <testcase name="Check Block Login" classname="uberTest" time="2.630" assertions="1">
 
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: target[name] is not a function[0m
+[0;90m       at Object.Check Block Login (/Applications/MAMP/htdocs/MDS/qualite/eval_17012020/nobour_mds3_functionaltesting_2020/tests/uberTest.js:25:15)
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+    </system-err>
   
 
   
