@@ -9,12 +9,8 @@
 
   "test_settings" : {
     "default" : {
-      "desiredCapabilities" : {
-        "browserName" : "chrome",
-        "chromeOptions": {
-          "args" : ["--no-sandbox"]
-        },
-        "loggingPrefs": {"driver": "INFO", "server": "OFF", "browser": "INFO"}
+      "desiredCapabilities": {
+        "browserName": "chrome"
       }
     }
   }

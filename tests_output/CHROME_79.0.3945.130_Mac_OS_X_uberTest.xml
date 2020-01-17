@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="1">
 
   <testsuite name="uberTest"
-    errors="0" failures="1" hostname="" id="" package="uberTest" skipped="0"
-    tests="1" time="7.554" timestamp="">
+    errors="0" failures="0" hostname="" id="" package="uberTest" skipped="0"
+    tests="1" time="2.806" timestamp="">
   
-    <testcase name="Open Website uber.com" classname="uberTest" time="7.554" assertions="2">
+    <testcase name="Open Website uber.com" classname="uberTest" time="2.806" assertions="3">
 
-      <failure message="Testing if the page title equals [0;33m&#39;Uber – Augmentez vos revenus en conduisant ou commandez une course dès maintenant&#39;[0m in 5000ms - expected [0;32m&#34;is &#39;Uber – Augmentez vos revenus en conduisant ou commandez une course dès maintenant&#39;&#34;[0m but got: [0;31m&#34;Uber – Augmentez vos revenus en conduisant ou commandez une course dès maintenant&#34;[0m [0;90m(5096ms)[0m">    at Object.Open Website uber.com (/Applications/MAMP/htdocs/MDS/qualite/eval_17012020/nobour_mds3_functionaltesting_2020/tests/uberTest.js:8:15)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    
 
-    <failure message="    at Object.Open Website uber.com (/Applications/MAMP/htdocs/MDS/qualite/eval_17012020/nobour_mds3_functionaltesting_2020/tests/uberTest.js:8:15)">    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    
+
+    
     </testcase>
   
 
