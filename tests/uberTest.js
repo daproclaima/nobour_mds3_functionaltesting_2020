@@ -25,8 +25,6 @@ module.exports = {
       .assert.click('*[id="/sign-in/"]')
       .pause(1000)
       .assert.elementPresent('*[@id="root"]/div/div/header/div[2]/div/div/div/div/div[6]/div/div[1]/a/span')
-      .click('*[@id="root"]')
-      .pause(1000)
       .assert.elementPresent('*[@id="root"]/div/div/header/div[2]/div/div/div/div/div[6]/div/div[2]/a/span')
   },
 };
